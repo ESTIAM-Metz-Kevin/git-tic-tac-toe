@@ -54,8 +54,8 @@ div > .cross {
 }
 
 .circle {
-    border-radius: 100%;
-    border: rgb(54, 148, 255) solid 6px;
+    background: url('./images/saitama.png') 0 0 no-repeat;
+    background-size: 140%;
 }
 
 .cross {
