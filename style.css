@@ -1,5 +1,5 @@
 body {
-    background-color: #212223;
+    background-color: blue;
     color: white;
     margin: 0;
     height: 100vh;
@@ -32,11 +32,11 @@ body {
 
 .cell:nth-of-type(3n-2),
 .cell:nth-of-type(3n-1) {
-    border-right: white solid 6px;
+    border-right: yellow solid 6px;
 }
 
 .cell:not(:nth-last-child(-n+3)) {
-    border-bottom: white solid 6px;
+    border-bottom: yellow solid 6px;
 }
 
 div > .circle,
@@ -46,16 +46,16 @@ div > .cross {
 }
 
 .j1 {
-    color: rgb(54, 148, 255);
+    color: rgb(19, 70, 4);
 }
 
 .j2 {
-    color: rgb(112, 5, 5);
+    color: rgb(255, 0, 200);
 }
 
 .circle {
     border-radius: 100%;
-    border: rgb(54, 148, 255) solid 6px;
+    border: rgb(19, 70, 4) solid 6px;
 }
 
 .cross {
@@ -68,7 +68,7 @@ div > .cross {
     display: block;
     height: 15px;
     width: 60px;
-    background-color: rgb(112, 5, 5);
+    background-color: rgb(255, 0, 200);
     position: absolute;
     top: calc(50% - 15px / 2);
 }
